@@ -1,15 +1,20 @@
 import Easy.TwoSum;
 import Easy.PlusOne;
-
+import Trees.ArrayTree;
 
 public class Test {
     public static void main(String[] args) {
-        TwoSum twoSum = new TwoSum();
-        PlusOne plusOne = new PlusOne();
+        ArrayTree testTree = new ArrayTree(10);
+        testTree.addValue(0);
+        testTree.addValue(1);
+        testTree.addValue(2);
+        testTree.addValue(3);
+        testTree.addValue(4);
+        try {
+            System.out.println(testTree.getLeftChild(0));
 
-        int[] nums = new int[]{1,2,3,4,5};
-        int[] result = plusOne.plusOne(new int[]{9,9});
-        for (int i = 0; i < result.length; i++)
-            System.out.println(result[i]);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
     } // main
 }

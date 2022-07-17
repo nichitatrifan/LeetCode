@@ -16,7 +16,7 @@ public class ArrayTree {
     int [] tree;
     int used;
 
-    ArrayTree(int size) throws IllegalArgumentException{
+    public ArrayTree(int size) throws IllegalArgumentException{
         if (size <= 0 ){
             throw new IllegalArgumentException("Tree size is invalid!");
         }
@@ -63,7 +63,7 @@ public class ArrayTree {
     } // getRightChild
 
     public void addValue(int target){
-        if (this.used++ >= this.tree.length){
+        if (this.used + 1 >= this.tree.length){
             this.doubleTreeSize();
         }
 
