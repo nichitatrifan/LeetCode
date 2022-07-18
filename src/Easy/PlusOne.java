@@ -42,6 +42,6 @@ public class PlusOne {
     public int[] plusOne(int[] digits){
         PlusOne.Solution solution = new PlusOne.Solution();
         return solution.plusOne(digits);
-    } //
+    } // plusOne
 
 } // PlusOne
