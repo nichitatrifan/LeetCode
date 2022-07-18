@@ -1,11 +1,12 @@
 import Easy.TwoSum;
 import Easy.PlusOne;
 import Easy.PalindromeNumber;
+import Easy.AddBinary;
 import Trees.ArrayTree;
 
 public class Test {
     public static void main(String[] args) {
-        PalindromeNumber solution = new PalindromeNumber();
-        System.out.println(solution.isPalindrome(121));
+        AddBinary addBinary = new AddBinary();
+        System.out.println(addBinary.addBinary("110010","10111"));
     } // main
 }
