@@ -14,7 +14,8 @@ package Easy;
 public class AddBinary {
     class Solution {
         public String addBinary(String a, String b) {
-
+            // Runtime: 12 ms, faster than 13.39% of Java online submissions for Add Binary.
+            // Memory Usage: 44.2 MB, less than 7.29% of Java online submissions for Add Binary.
             char carry = '0';
             int i = a.length() - 1;
             int j = b.length() - 1;
