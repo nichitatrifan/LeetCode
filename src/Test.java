@@ -1,4 +1,3 @@
-import java.util.*;
 import Easy.TwoSum;
 import Easy.PlusOne;
 import AlgorithmLabs.Rem;
@@ -16,5 +15,5 @@ public class Test {
 //        int[] result = plusOne.plusOne(new int[]{9,9});
 //        for (int i = 0; i < result.length; i++)
 //            System.out.println(result[i]);
-    } // main
+    }
 }
