@@ -15,7 +15,9 @@ public class PalindromeNumber {
             int initialValue = x;
 
             while(x!=0){;
-                number = number*10 + x%10;
+                // we multiply by 10 to create a placeholder
+                // we modulo the 'x' to get the last digit of the number
+                number = number * 10 + x % 10;
                 x = x/10;
             }
 
